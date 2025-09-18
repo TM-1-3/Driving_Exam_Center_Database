@@ -1,6 +1,6 @@
 <img src='https://sigarra.up.pt/feup/pt/imagens/LogotipoSI' width="30%"/>
 
-<h3 align="center">Licenciatura em Engenharia Informática e Computação<br>Bases de Dados<br> 2024/2025 </h3>
+<h3 align="center">Licenciatura em Engenharia Informática e Computação<br> L.EIC012 - Bases de Dados<br> 2024/2025 </h3>
 
 ---
 <h3 align="center"> Colaboradores &#129309 </h2>
