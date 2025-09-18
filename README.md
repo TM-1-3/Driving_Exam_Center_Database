@@ -1,11 +1,21 @@
-# L.EIC012 - Databases - Driving Exam Center
+<img src='https://sigarra.up.pt/feup/pt/imagens/LogotipoSI' width="30%"/>
 
-## Group Elements
+<h3 align="center">Licenciatura em Engenharia Informática e Computação<br>Bases de Dados<br> 2024/2025 </h3>
 
-- up202309925 : Elton Vaz
-- up202307037 : Henrique Vilarinho
-- up202304692 : Tomás Morais
+---
+<h3 align="center"> Colaboradores &#129309 </h2>
 
+<div align="center">
+
+| Nome               | Número       |
+|--------------------|--------------|
+| Elton Vaz          | up202309925  |
+| Henrique Vilarinho | up202307037  |
+| Tomás Morais       | up2023004692 |
+
+Nota : 15,6
+
+</div>
 ## Project Report
 
 **UML Diagram:**
