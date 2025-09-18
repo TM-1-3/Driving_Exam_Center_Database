@@ -7,11 +7,11 @@
 
 <div align="center">
 
-| Nome               | Número       |
-|--------------------|--------------|
-| Elton Vaz          | up202309925  |
-| Henrique Vilarinho | up202307037  |
-| Tomás Morais       | up2023004692 |
+| Nome               | Número      |
+|--------------------|-------------|
+| Elton Vaz          | up202309925 |
+| Henrique Vilarinho | up202307037 |
+| Tomás Morais       | up202304692 |
 
 Nota : 15,6
 
