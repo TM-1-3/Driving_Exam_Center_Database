@@ -19,7 +19,7 @@ Nota : 15,6
 
 ## Project Report
 
-<a href="reports/901_1ªSubmissão.pdf">First Report</a>
+To see the full report click here <a href="reports/901_1ªSubmissão.pdf">First Report</a> <a href="reports/901_2ªSubmissão.pdf">Second Report</a>
 
 **UML Diagram:**
 
