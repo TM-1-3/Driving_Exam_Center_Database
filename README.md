@@ -19,6 +19,7 @@ Nota : 15,6
 
 ## Project Report
 
+
 **UML Diagram:**
 
 <img width="1274" height="800" alt="Captura de ecrã de 2025-09-17 11-27-35" src="https://github.com/user-attachments/assets/f1ecd6e8-78d3-4aac-bebf-234f0eaf0896" />
