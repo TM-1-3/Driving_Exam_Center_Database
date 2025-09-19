@@ -27,26 +27,26 @@ Nota : 15,6
 
 Escola (<ins>IDEscola</ins>, Nome, Morada, CodigoPostal, AlvaraDeFuncionamento)
 
-Instrutor(IDInstrutor,Nome,DataDeNascimento,NIF,NumeroCartaoCidadao, CodigoPostal, Morada, LicencaDeInstrucao,IDEscola-->Escola,IDCarta-->CartadeConducao)
+Instrutor(<ins>IDInstrutor</ins>,Nome,DataDeNascimento,NIF,NumeroCartaoCidadao, CodigoPostal, Morada, LicencaDeInstrucao,IDEscola-->Escola,IDCarta-->CartadeConducao)
 
-Proprietario (IDInstrutor-->Instrutor, IDEscola-->Escola, Proprietario ?)
+Proprietario (<ins>IDInstrutor</ins>-->Instrutor, <ins>IDEscola</ins>-->Escola, Proprietario ?)
 
-Veiculo (IDVeiculo, Matricula, Marca, NumeroKmPercorridos,DataDeInspecao, Seguro, IDEscola-->Escola, IDInstrutor-->Instrutor,IDCategoria-->Categoria)
+Veiculo (<ins>IDVeiculo</ins>, Matricula, Marca, NumeroKmPercorridos,DataDeInspecao, Seguro, IDEscola-->Escola, IDInstrutor-->Instrutor,IDCategoria-->Categoria)
 
-Categoria (IDCategoria, Designacao)
+Categoria (<ins>IDCategoria</ins>, Designacao)
 
-CategoriaCarta (IDCarta-->CartaDeConducao, IDCategoria-->Categoria)
+CategoriaCarta (<ins>IDCarta</ins>-->CartaDeConducao, <ins>IDCategoria</ins>-->Categoria)
 
-CartaDeConducao (IDCarta, Numero, DataDeEmissao)
+CartaDeConducao (<ins>IDCarta</ins>, Numero, DataDeEmissao)
 
-Percurso (IDPercurso, Nome, Perimetro, PontoDeTroca)
+Percurso (<ins>IDPercurso</ins>, Nome, Perimetro, PontoDeTroca)
 
-Examinador(IDExaminador,Nome,DataDeNascimento,NIF,CartaoCidadao,CodigoPostal, Morada, CredencialDeExaminador,IDCarta-->CartaDeConducao)
+Examinador(<ins>IDExaminador</ins>,Nome,DataDeNascimento,NIF,CartaoCidadao,CodigoPostal, Morada, CredencialDeExaminador,IDCarta-->CartaDeConducao)
 
-Examinando (IDExaminando, Nome, DataDeNascimento, NIF,NumeroCartaoCidadao, CodigoPostal, Morada, LicencaDeAprendizagem,IDEscola-->Escola, IDInstrutor-->Instrutor)
+Examinando (<ins>IDExaminando</ins>, Nome, DataDeNascimento, NIF,NumeroCartaoCidadao, CodigoPostal, Morada, LicencaDeAprendizagem,IDEscola-->Escola, IDInstrutor-->Instrutor)
 
-Exame (IDExame, Data, Hora, IDExaminando--> Examinando,IDExaminador-->Examinador, IDPercurso-->Percurso)
+Exame (<ins>IDExame</ins>, Data, Hora, IDExaminando--> Examinando,IDExaminador-->Examinador, IDPercurso-->Percurso)
 
-Aprovacao (IDAprovacao,Duracao, Avaliacao, Ordem, IDExaminando-->Examinando, IDExame-->Exame,IDCarta-->CartaDeConducao)
+Aprovacao (<ins>IDAprovacao</ins>,Duracao, Avaliacao, Ordem, <ins>IDExaminando</ins>-->Examinando, <ins>IDExame</ins>-->Exame,IDCarta-->CartaDeConducao)
 
-Reprovacao (IDReprovacao,Duracao, Motivo, Ordem, IDExaminando-->Examinando, IDExame-->Exame)
+Reprovacao (<ins>IDReprovacao</ins>,Duracao, Motivo, Ordem, <ins>IDExaminando</ins>-->Examinando, <ins>IDExame</ins>-->Exame)
