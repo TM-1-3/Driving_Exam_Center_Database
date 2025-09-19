@@ -53,4 +53,4 @@ Aprovacao (<ins>IDAprovacao</ins>,Duracao, Avaliacao, Ordem, <ins>IDExaminando</
 
 Reprovacao (<ins>IDReprovacao</ins>,Duracao, Motivo, Ordem, <ins>IDExaminando</ins>-->Examinando, <ins>IDExame</ins>-->Exame)
  
-&#x26A0 **Disclaimer:** This project had originally two "create" and two "populate" files, with the difference being that one included the use of generative AI. To simplify, only oe of the versions was included in this repository.
+<h3>&#x26A0 Disclaimer:</h3> This project had originally two "create" and two "populate" files, with the difference being that one included the use of generative AI. To simplify, only oe of the versions was included in this repository.
