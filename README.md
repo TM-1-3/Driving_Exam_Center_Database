@@ -25,7 +25,7 @@ Nota : 15,6
 
 **Relational Schema:**
 
-Escola (*IDEscola*, Nome, Morada, CodigoPostal, AlvaraDeFuncionamento)
+Escola (<ins>IDEscola</ins>, Nome, Morada, CodigoPostal, AlvaraDeFuncionamento)
 
 Instrutor(IDInstrutor,Nome,DataDeNascimento,NIF,NumeroCartaoCidadao, CodigoPostal, Morada, LicencaDeInstrucao,IDEscola-->Escola,IDCarta-->CartadeConducao)
 
