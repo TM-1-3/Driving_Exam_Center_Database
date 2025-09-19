@@ -25,26 +25,28 @@ Nota : 15,6
 
 **Relational Schema:**
 
-Escola (IDEscola, Nome, Morada, CodigoPostal, AlvaraDeFuncionamento)
+Escola (~IDEscola~, Nome, Morada, CodigoPostal, AlvaraDeFuncionamento)
 
 Instrutor(IDInstrutor,Nome,DataDeNascimento,NIF,NumeroCartaoCidadao, CodigoPostal, Morada, LicencaDeInstrucao,IDEscola-->Escola,IDCarta-->CartadeConducao)
 
 Proprietario (IDInstrutor-->Instrutor, IDEscola-->Escola, Proprietario ?)
 
 Veiculo (IDVeiculo, Matricula, Marca, NumeroKmPercorridos,DataDeInspecao, Seguro, IDEscola-->Escola, IDInstrutor-->Instrutor,IDCategoria-->Categoria)
+
 Categoria (IDCategoria, Designacao)
+
 CategoriaCarta (IDCarta-->CartaDeConducao, IDCategoria-->Categoria)
+
 CartaDeConducao (IDCarta, Numero, DataDeEmissao)
+
 Percurso (IDPercurso, Nome, Perimetro, PontoDeTroca)
-Examinador(IDExaminador,Nome,DataDeNascimento,NIF,CartaoCidadao,
-CodigoPostal, Morada, CredencialDeExaminador,IDCarta--
->CartaDeConducao)
-Examinando (IDExaminando, Nome, DataDeNascimento, NIF,
-NumeroCartaoCidadao, CodigoPostal, Morada, LicencaDeAprendizagem,
-IDEscola-->Escola, IDInstrutor-->Instrutor)
-Exame (IDExame, Data, Hora, IDExaminando--> Examinando,
-IDExaminador-->Examinador, IDPercurso-->Percurso)
-Aprovacao (IDAprovacao,Duracao, Avaliacao, Ordem, IDExaminando--
->Examinando, IDExame-->Exame,IDCarta-->CartaDeConducao)
-Reprovacao (IDReprovacao,Duracao, Motivo, Ordem, IDExaminando--
->Examinando, IDExame-->Exame)
+
+Examinador(IDExaminador,Nome,DataDeNascimento,NIF,CartaoCidadao,CodigoPostal, Morada, CredencialDeExaminador,IDCarta-->CartaDeConducao)
+
+Examinando (IDExaminando, Nome, DataDeNascimento, NIF,NumeroCartaoCidadao, CodigoPostal, Morada, LicencaDeAprendizagem,IDEscola-->Escola, IDInstrutor-->Instrutor)
+
+Exame (IDExame, Data, Hora, IDExaminando--> Examinando,IDExaminador-->Examinador, IDPercurso-->Percurso)
+
+Aprovacao (IDAprovacao,Duracao, Avaliacao, Ordem, IDExaminando-->Examinando, IDExame-->Exame,IDCarta-->CartaDeConducao)
+
+Reprovacao (IDReprovacao,Duracao, Motivo, Ordem, IDExaminando-->Examinando, IDExame-->Exame)
