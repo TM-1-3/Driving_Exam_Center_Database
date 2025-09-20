@@ -17,17 +17,20 @@ Nota : 15,6
 
 </div>
 
-## Drivig Exam Center SQL Relational Database
+# Driving Exam Center SQLite Relational Database Report
 
-## Project Report
 
 To see the full report click here: <a href="reports/901_1ªSubmissão.pdf">First Report</a>  &  <a href="reports/901_2ªSubmissão.pdf">Second Report</a>
 
-**UML Diagram:**
+* [UML Diagram](#uml-diagram) 
+* [Relational Schema](#relational-schema)
+
+
+## UML Diagram
 
 <img width="1274" height="800" alt="Captura de ecrã de 2025-09-17 11-27-35" src="https://github.com/user-attachments/assets/f1ecd6e8-78d3-4aac-bebf-234f0eaf0896" />
 
-**Relational Schema:**
+## Relational Schema
 
 Escola (<ins>IDEscola</ins>, Nome, Morada, CodigoPostal, AlvaraDeFuncionamento)
 
