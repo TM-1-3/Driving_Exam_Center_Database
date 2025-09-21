@@ -17,7 +17,7 @@
 | Henrique Vilarinho | up202307037 |
 | Tomás Morais       | up202304692 |
 
-Nota : 15,6
+Grade : 15,6
 
 </div>
 
